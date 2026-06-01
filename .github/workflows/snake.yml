@@ -9,6 +9,10 @@ on:
     branches:
     - main
 
+# İcazələri birbaşa koddan veririk
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
